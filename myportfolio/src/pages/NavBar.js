@@ -24,7 +24,7 @@ export default class NavBar extends Component {
                   activeClassName={activeNav}>  Education</Link>
 <Link    className={"mt-2  mr-6  text-decoration-none " + navText}   activeClassName={activeNav}   to='experience' > Experience </Link>
 <Link          className={"mt-2   text-decoration-none " + navText}
-                  activeClassName={activeNav}    to='projects'> Projects</Link>
+                  activeClassName={activeNav}    to='project'> Projects</Link>
 
   </Nav>
   
